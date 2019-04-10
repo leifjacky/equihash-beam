@@ -21,7 +21,6 @@ include_directories(./3rdparty/secp256k1-zkp/src)
 add_library(beam_shared SHARED ${LIBBEAM_SRC})
 
 set_target_properties(beam_shared PROPERTIES OUTPUT_NAME "beampow")
-set_target_properties(beam_shared PROPERTIES VERSION 0.1)
 
 set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
 
